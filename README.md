@@ -29,7 +29,7 @@ O bot, está disponivel apenas em pt-BR no momento.
 ## Como Usar
 1. Certifique-se de que "pyTelegramBotAPI" e "openpyxl" estejam instalados, executando `pip install pyTelegramBotAPI` e `pip install openpyxl` no diretorio do bot
 2. Clone este repositório para o seu ambiente local.
-3. Edite a key API do bot no arquivo `BotTelegram.py` para usar em seu próprio bot de conversa no Telegram.
+3. Edite a linha keytel() no codigo no arquivo `BotTelegram.py` para usar sua propria key API.
 4. Execute o bot e mande uma mensagem contendo "/start"
 
 ## Observações
@@ -70,7 +70,7 @@ The bot is currently available only in pt-BR for the moment.
 ## How to Use
 1. Make sure that "pyTelegramBotAPI" and "openpyxl" is installed in your bot directory by entering `pip install pyTelegramBotAPI` and `pip install openpyxl`
 2. Clone this repository to your local environment.
-3. Edit the bot's key API in the `BotTelegram.py` file to use in your own Telegram chatbot.
+3. Edit the line "keytel()" in the `BotTelegram.py` to your own key API.
 4. Run the bot and send a message containing only "/start" 
 
 ## Notes
