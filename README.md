@@ -1,5 +1,5 @@
 # Portugues Brasileiro:
-## Bot do Telegram para edição de arquivos `.xlsx`, focado para gerenciamento de finanças.
+## Bot do Telegram para edição de arquivos `.xlsx`, focado no gerenciamento de finanças.
 
 Este repositório contém um bot de conversa para o Telegram que facilita a organização e registro de gastos monetários. O bot cria e edita arquivos `.xlsx` com o nome do usuário e o ano escolhido (até 6 anos atrás ou 3 anos no futuro). Ele automaticamente cria planilhas com todos os meses do ano selecionado, permitindo que você acompanhe seus gastos mês a mês.
 
