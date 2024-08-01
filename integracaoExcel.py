@@ -23,13 +23,6 @@ def criarArquivoAno(nome, ano):
         resumoAnual.save(arquivo)
         return arquivo
 
-def read_all_data(path):
-    from openpyxl import load_workbook
-    workbook = load_workbook(filename=path)
-    for sheet_name in workbook.sheetnames:
-        sheet = workbook[sheet_name]
-        print(f"Title = {sheet.title}")
-
 
 def opcoesAno():
     import datetime
@@ -82,15 +75,3 @@ def seuMes():
         case (12):
             return "des"
 
-
-def listarArquivos(nome, ano, listaArquivos):
-    from openpyxl import Workbook
-    ano1 = ano - 11
-    while ano1 < ano + 3:
-        ano1 += 1
-        arquivo = f"gastos de {nome} {ano1}.xlsx"
-        try:
-            open(arquivo, 'r')
-            listaArquivos.append(arquivo)
-        except IOError:
-            continue
