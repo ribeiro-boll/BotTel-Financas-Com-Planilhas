@@ -22,7 +22,7 @@ Este repositório contém um bot de conversa para o Telegram que facilita a orga
    - A seleção do ano é simples e intuitiva.
    - No entanto, se o ano do nome do arquivo exceder 6 anos da data atual, o bot nao poderá executar edições, pois ele irá ignorar tais arquivos .
 
-## Language Availability
+## Disponibilidade de linguagem
 
 O bot, está disponivel apenas em pt-BR no momento.
 
