@@ -1,3 +1,5 @@
+![gif](https://drive.google.com/file/d/157sislGh95V_pqgL029xgMo64wXQhD1A/view?usp=sharing)
+
 # Portugues Brasileiro:
 ## Bot do Telegram para edição de arquivos `.xlsx`, focado no gerenciamento de despesas mensais.
 
